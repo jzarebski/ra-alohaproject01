@@ -62,6 +62,10 @@
 .paddingtop40 {
 	padding-top: 40px;
 }
+
+.paddingbottom60 {
+	padding-bottom: 60px;
+}
 /*------- font rules ---------*/
 
 h1,h2,h3,h4,h6 {
@@ -74,6 +78,12 @@ p {
 	font-size: 1rem;
 }
 
+.products p {
+	color:grey;
+	font-size: .75rem;
+	font-weight:700;
+}
+
 h1 {
 	font-size: 2.75rem;
 }
@@ -84,10 +94,17 @@ h2 {
 
 h3 {
 	font-size: 1.75rem;
+
 }
 
 h4 {
 	font-size: 1.25rem
+}
+
+.products h4 {
+	color:rgb(226,87,76);
+	font-weight:700;
+	padding:10px;
 }
 
 h5 {
@@ -125,6 +142,13 @@ h5 {
 	color: white;
 }
 
+.colorflamingo {
+	color:rgb(226,87,76)
+}
+
+.colorgrey{
+	color: medium grey;
+}
 /* Z-Indexing */
 
 .z2 {
@@ -173,8 +197,17 @@ h5 {
 }
 
 
-.row {
-	margin-bottom: 50px;
+.products {
+	display:block;
+
 }
+
+.products:after {
+	clear:both;
+	content:" ";
+	display:block;
+}
+}
+
 
 .subscribe
