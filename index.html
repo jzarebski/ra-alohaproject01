@@ -1,66 +1,71 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
+        <title>Aloha Apparel Co</title>
         <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Raleway:300,300i,500,500i" rel="stylesheet">
         <meta charset="utf-8">
-        <title>Aloha Apparel Co</title>
     </head>
     <body>
         <main>
         	<header>
-                    <img id="logo" src="assets/images/aloha-logo.svg" alt="aloha-logo">
-                    <img id="cart" src="assets/images/cart-icon.svg" alt="cart-icon">
+                    <img class="left width25" src="assets/images/aloha-logo.svg" alt="aloha-logo">
+                    <img class="right width5" src="assets/images/cart-icon.svg" alt="cart-icon">        
         	</header>
         	<section id="banner">
                 <div class="banner-girl"></div>
-                    <h5 id="nc-text">NEW COLLECTION</h5>
-                    <h1 id="ss2016-text">Spring/Summer 2016</h1>
+                <div class="textcenter top45 width100 positionabs z2">
+                    <h5 class="colorwhite bold textshadow">NEW COLLECTION</h5>
+                    <h1 class="colorwhite bold textshadow">Spring/Summer 2016</h1>
+                </div>
+            </section>
+        	<section class="textcenter">
+                    <h3 class="italic">Hand-Crafted <span class="bold">Styles</span></h3>
+                    <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our</p>
+                    <p>current selection of products or sign-up for updates below.</p>  
             </section>
         	<section>
-                <h3>Hand-Crafted <span>Styles</span></h3>
-                <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>   
-            </section>
-        	<section>
-                <h3>Most-Loved <span>Products</span></h3>
+                <div class="textcenter">             
+                    <h3 class="italic">Most-Loved <span class="bold">Products</span></h3>
+                </div>
                 <div class="row">
-                    <div class="width25">
+                    <div class="left width25 textcenter">
                         <img src="assets/images/stretch-knit-dress.jpg" alt="stretch-knit-dress">
                         <p>DRESSES</p>
-                        <h3>Stretch Knit Dress</h3>
+                        <h3 class="description">Stretch Knit Dress</h3>
                         <p>$169.00</p>
                     </div>
                     
-                    <div class="width25">
+                    <div class="left width25 textcenter">
                         <img src="assets/images/cotton-blue-shirt.jpg" alt="cotton-blue-shirt">
                         <p>SHIRTS</p>
-                        <h3>Cotton Blue shirt</h3>
+                        <h3 class="description">Cotton Blue shirt</h3>
                         <p>$89.00</p>
                     </div>
 
-                    <div class="width25">
+                    <div class="left width25 textcenter">
                         <img src="assets/images/checked-stretch-dress.jpg" alt="checked-stretch-dress">
                         <p>DRESSES</p>
-                        <h3>Checked Stretch Dress</h3>
+                        <h3 class="description">Checked Stretch Dress</h3>
                         <p>$129.00</p>
                     </div>
 
-                    <div class="width25">
-                        <div class="clear"></div>
+                    <div class="left width25 textcenter">
                         <img src="assets/images/blue-hipster-backpack.jpg" alt="blue-hipster-backpack">
                         <p>BAGS</p>
-                        <h3>Blue Hipster Back</h3>
+                        <h3 class="description">Blue Hipster Back</h3>
                         <p>$69.00</p>
                     </div>
                 </div>
             </section>
-        	<section>
+        	<section class="subscribe ">
                 <img src="assets/images/wave-bkgd.jpg" alt="wave background">
                 <h3>Sign-up for <span>Updates</span></h3>
                 <p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
                 <div id="email-form">
-                    <input type="email" value="Your Email">
-                    <button type="button">Subscribe</button>
+                    <input type="email" placeholder="Your Email">
+                    <input type="submit" Subscribe>
                 </div>
             </section>
         </main>
