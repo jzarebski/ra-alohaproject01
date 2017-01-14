@@ -56,6 +56,9 @@
 	border-top:8px solid white;
 }
 
+hr {
+	color:grey
+}
 /*------ padding rules ------*/
 
 .positionabs {
@@ -94,7 +97,7 @@
 	padding-top: 10px;
 }
 
-.paddingtop50 {
+.padding-top-50 {
 	padding-top: 50px;
 }
 
@@ -249,10 +252,10 @@ h5 {
 
 input[type=text] {
 	float:left;
-	width:65%;
+	width:60%;
 	background:none;
 	border:none;
-	padding:5px ;
+	padding:9px ;
 
 }
 
@@ -280,3 +283,100 @@ input[type=submit] {
 }
 
 /* reponsive css */
+@media only screen and (max-width:600px) 
+	{
+
+.mobile-spring {
+	font-weight:400;
+}
+
+.width12 {
+	width:35%;
+
+}
+
+.width5 {
+	width:13%;
+}
+
+.width25 {
+	width:100%;
+	clear:both;
+}
+
+#banner {
+	background-position:center;
+	min-height:41vh;
+}
+
+.banner-girl {
+	width: 22%;
+    margin-left: -11%;
+    min-height: 90%;
+}
+
+h1 {
+	font-size:2.5rem;
+	font-weight:400;
+}
+
+.top45 {
+	top:35.5%
+
+}
+
+.subform {
+	background-color:white;
+	border-radius:25px;
+	width:100%;
+	padding:4px;
+	display:inline-block;
+
+}
+
+input[type=text] {
+	float:left
+	width:65%;
+	background:none;
+	border:none;
+	padding:9px ;
+	display:inline-block;
+
+}
+
+input[type=submit] {
+	float:right;
+	width:30%;
+	border-radius:25px;
+	background-color:rgb(226,87,76);
+	padding:5px;
+	line-height: 1.5rem;
+}
+
+.address-mobile {
+	text-align:center;
+	clear:both;
+}
+
+.change-for-mobile li {
+	float:left;
+	letter-spacing:1rem;
+
+
+}
+
+.hide-for-mobile {
+	
+
+}
+
+
+}
+}
+/* backup of list for html */
+
+						<li><a href="http://facebook.com/"><i class="fa fa-facebook-f"><span class="hide-for-mobile"> Facebook</span></i></li>
+                        <li><a href="http://twitter.com/"><i class="fa fa-twitter"><span class="hide-for-mobile"> Twitter</span></i></li>
+                        <li><a href="http://instagram.com/"><i class="fa fa-instagram"><span class="hide-for-mobile"> Instagram</span></i></li>
+                        <li><a href="http://pinterest.com/"><i class="fa fa-pinterest"><span class="hide-for-mobile"> Pinterest</span></i></li>
+                        <li><a href="http://plus.google.com/"<i class="fa fa-google-plus"><span class="hide-for-mobile"> Google+</span></i></li>
