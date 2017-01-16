@@ -26,7 +26,7 @@
 }
 
 .width12 {
-	width:12%;
+	width:14%;
 }
 
 .width5 {
@@ -34,9 +34,16 @@
 }
 
 
+}
+
+
 /*------ margin rules ------*/
 .margin2v3v {
 	margin: 2vh 3vh;
+}
+
+.margin-top {
+	margin-top:1em;
 }
 
 .margin2v {
@@ -76,8 +83,8 @@ hr {
 .padding50 {
 	padding:50px;
 }
-.paddingtopbot10 {
-	padding:10px 0px;
+.paddingtopbot15 {
+	padding:15px 0px;
 }
 
 
@@ -107,7 +114,7 @@ hr {
 /*------- font rules ---------*/
 
 h1,h2,h3,h4,h6 {
-	font-family: "Playfair Display";
+	font-family: "Playfair Display", "serif";
 }
 
 p {
@@ -122,7 +129,7 @@ p {
 
 .address p {
 	color:white;
-	font-family: "playfair display";
+	font-family: "Playfiar Display", "serif";
 		
 }
 
@@ -177,6 +184,13 @@ h5 {
 
 }
 
+.line-break {
+	display:inline;
+	content:"\a";
+	white-space:pre;
+	line-height:2em;
+
+}
 /* text colors */
 .colorwhite {
 	color: white;
@@ -206,10 +220,10 @@ h5 {
 
 #wave {
 	background-image: url("assets/images/wave-bkgd.jpg");
-	background-size: cover;
 	background-repeat: no-repeat;
 	background-position:bottom;
 	min-height:32vh;
+	background-size:cover;
 }
 
 #banner {
@@ -274,17 +288,30 @@ input[type=submit] {
 }
 
 /*Address*/
+.address {
+	padding: 15px 20px;
+	font-size: 1rem;
+}
 
 /* Social Media Icons*/
 .socialicons {
 	padding-top: 5px;
-	margin-right: 1em;
+	margin-left: 3em;
 	line-height: 1.5rem;
 }
 
-/* reponsive css */
+.fa {
+	color:white;
+}
+
+ul {
+	padding-right: 2em
+}
+
+/* RESPONSIVE CSS */
 @media only screen and (max-width:600px) 
 	{
+
 
 .mobile-spring {
 	font-weight:400;
@@ -302,6 +329,15 @@ input[type=submit] {
 .width25 {
 	width:100%;
 	clear:both;
+}
+
+#wave {
+	background-image: url("assets/images/wave-bkgd.jpg");
+	background-repeat: no-repeat;
+	background-position:bottom;
+	min-height:32vh;
+	background-size:auto;
+
 }
 
 #banner {
@@ -354,29 +390,87 @@ input[type=submit] {
 }
 
 .address-mobile {
-	text-align:center;
-	clear:both;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 15px;
 }
 
-.change-for-mobile li {
-	float:left;
-	letter-spacing:1rem;
-
-
+li {
+    letter-spacing: 12.5px;
+    display:inline-block;
 }
 
 .hide-for-mobile {
-	
+	display:none;	
+}
+
+footer {
+	bottom:0;
+}
+
+.socialicons{
+ float: none;
+ text-align: center;
+}
+
+.socialicons ul{
+ text-align: center;
+ display: inline-block;
+}
+
+.socialicons li{
+ padding: 10px;
+ float: left;
+}
+
+.line-break {
+	display:inline;
+	content:"\a";
+	white-space:pre-line;
+	line-height:2em;
+
+}
+}
+
+@media only screen and (max-width:1050px) and (min-width:601px)
+	{
+
+.banner-girl {
+	width:24%;
+	margin-left:-12%;
+}
+
+.width25 {
+	float:left;
+	width:50%;
+}
+
+#wave {
+	background-size:auto;
+}
+
+.subform{
+	width:70%;
+}
+
+.width12 {
+	width:25%;
 
 }
 
-
+.width5 {
+	width:10%;
 }
-}
-/* backup of list for html */
 
-						<li><a href="http://facebook.com/"><i class="fa fa-facebook-f"><span class="hide-for-mobile"> Facebook</span></i></li>
-                        <li><a href="http://twitter.com/"><i class="fa fa-twitter"><span class="hide-for-mobile"> Twitter</span></i></li>
-                        <li><a href="http://instagram.com/"><i class="fa fa-instagram"><span class="hide-for-mobile"> Instagram</span></i></li>
-                        <li><a href="http://pinterest.com/"><i class="fa fa-pinterest"><span class="hide-for-mobile"> Pinterest</span></i></li>
-                        <li><a href="http://plus.google.com/"<i class="fa fa-google-plus"><span class="hide-for-mobile"> Google+</span></i></li>
+.mobile-spring {
+	font-weight:400;
+}
+
+h5 {
+	font-size: 150%
+}
+
+h1{ 
+	font-size: 387%; 
+}
