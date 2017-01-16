@@ -191,6 +191,10 @@ h5 {
 	line-height:2em;
 
 }
+
+.textnormal{
+	text-decoration: none;
+}
 /* text colors */
 .colorwhite {
 	color: white;
