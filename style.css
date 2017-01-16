@@ -37,7 +37,7 @@
 }
 
 
-/*------ margin rules ------*/
+/*------ MARGIN RULES ------*/
 .margin2v3v {
 	margin: 2vh 3vh;
 }
@@ -129,7 +129,7 @@ p {
 
 .address p {
 	color:white;
-	font-family: "Playfiar Display", "serif";
+	font-family: "raleway", "san-serif";
 		
 }
 
@@ -161,6 +161,7 @@ h5 {
 }
 
 /* text styling */
+
 .bold {
 	font-style: normal;
 	font-weight: 700;
@@ -302,10 +303,19 @@ input[type=submit] {
 	padding-top: 5px;
 	margin-left: 3em;
 	line-height: 1.5rem;
+	text-decoration:none;
+
+}
+.socialicons a {
+	text-decoration:none
+}
+.socialicons span {
+	font-family: "raleway";
 }
 
 .fa {
 	color:white;
+
 }
 
 ul {
